@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.80" multi-file="no" uid="simp2291e1604da8485294a9e800300b62c9">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type stereotype="table" type-id="class" type="UmlClass" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="UmlDependency" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>10</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>78</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>80</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="" name="" task-id-sequence="0">
+    <working-schedule uid="ws-4e6084f883084d118a1146c24cd941fa" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="Pce82bad23275468f983c0140e5f2d14b">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-79d00d938a6b470792900794603e5978" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-3ac664e111fa41c68724a37bf5198f23" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Button" tid="" name="Button" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="()" tid="" name="()" description="" />
+      <type id="(int)" tid="" name="(int)" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pb6a0e8e40d30440ea00b12aaaca5cdeb_540901880" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/27/2018 22:34:03</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pa8f884f4ce3349919e020e25ab0f7816_363734661" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,47" zoom="0.4">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/27/2018 22:34:03</creation-date>
+          <change-date>09/29/2018 19:51:17</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="31a2bfdcb3934273bb913c9f7fd30e77" cid="DEP007" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:38:09" from="dif01e7721d168448c95b655ee6b5768b76491" to="dic092125f5d4b4dd7bf16a0848288e1919713">
+            <style class="default" />
+          </item>
+          <item id="di612696908165115808" cid="C002" type="class" name="TelaMenu" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:34:09">
+            <style class="default" />
+            <attributes>
+              <attribute id="ab20392c6734b4fb182f985be122fc093307" cid="ELEM009" name="btn_Teoria" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="adbfb8be777a249bb8db083f4d01ecd65737" cid="ELEM010" name="btn_Praticar" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a4febdb33e6b14ff8ad0dd8112698da7a766" cid="ELEM011" name="btn_Sobre" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aba406e32b1c2492d8dd25f6a446f4c1e30" cid="ELEM012" name="btn_Sair" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o27bf314fa0ab496f97dc1083ab4ae38e488" cid="ELEM013" name="TelaMenu" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oac99b1fafddb4f148d40cdf91564b2a1487" cid="ELEM014" name="~TelaMenu" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o51163363f8b84c21ade52341ab8e61c786" cid="ELEM015" name="btn_Teoria_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o74d49bd877e8430d84b1c2b7c46fc5f6604" cid="ELEM016" name="btn_Praticar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o3c5043f3a45c49bd959bc3f7225a8b28567" cid="ELEM017" name="btn_Sobre_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o8c31fd3004a04a51b8e356b1eddfbf9e399" cid="ELEM018" name="btn_Sair_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oa364cd6e67484af687d100c5f72c46b0218" cid="ELEM019" name="btn_Musica_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="od7f09dd779e64e4e8e0ce18620596bc081" cid="ELEM057" name="btn_StopMusic_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di656900490513059081" cid="C003" type="class" name="TelaTeoria" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:34:10">
+            <style class="default" />
+            <attributes>
+              <attribute id="aebbf6db6c6c0434a9c19cb965b15601e821" cid="ELEM025" name="btn_Avançar" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3feb7ad56af14b458659dc2ea0dbaa78452" cid="ELEM026" name="btn_Sair" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o8cdeac561aea4c93b18e9d3ddce6668f636" cid="ELEM020" name="TelaTeoria" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o35e7f07afd6e4c278b5d7cbbf4f519ed158" cid="ELEM021" name="~TelaTeoria" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1c7ed954555448e386f7521b5632814e549" cid="ELEM022" name="TelaTeoria_Load" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ofcbc77575f2b4f4f8896c24f5bd00699381" cid="ELEM023" name="btn_Avancar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oeb451e2af0094b358183c047262ca01c655" cid="ELEM024" name="btn_Voltar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1bb82275b502404186355ad291533437681" cid="ELEM027" name="incializeComponent" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di275576505822228348" cid="C004" type="class" name="TelaJogo" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:34:47">
+            <style class="default" />
+            <attributes>
+              <attribute id="a559d468b7e9b4fddac20e2b85d2c2a22827" cid="ELEM028" name="Pontos" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a74436263fcfa41d89aec7aa7f2502805842" cid="ELEM034" name="btn_Casa1" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac4d549cd44cd49fa8b43d1195ff8b473293" cid="ELEM036" name="btn_Casa2" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3cfaa2d22c274a6e89a561396a3a0e15793" cid="ELEM037" name="btn_Casa3" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aac9ffdc02eaa4bca86355ca3499f5887711" cid="ELEM038" name="btn_Casa4" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a9d5e48086d2d417d81d6e373b94fc60d585" cid="ELEM039" name="btn_ProximaFase" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a41dc4cd0a7a74e8ebe2e471878a9d6ba382" cid="ELEM040" name="btn_Recomecar" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afc82dfe513b0461bb1187a07855701f6395" cid="ELEM074" name="VetorVisitas" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private" default-value=":int" multiplicity="4">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="of8f364a2d1f7446a884f792e198989dd354" cid="ELEM029" name="TelaJogo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="off2c93cd14544c8bb238c711571f2d26921" cid="ELEM031" name="~TelaJogo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o9269316df16446398644dbc1e1e948d3641" cid="ELEM032" name="SetPontos" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="peab4f220bdb04b26a0d1e488576c68b7" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o1a8c8d345d8c4ee9bac342420326dc52654" cid="ELEM033" name="TelaJogo_Load" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o0426217e5ed549e9848ef89f3e36db03234" cid="ELEM041" name="btn_Casa1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o022d42871b63443c825ace0223733c3a475" cid="ELEM043" name="btn_Casa2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ocf93bf753685465faf516125d896e8df759" cid="ELEM044" name="btn_Casa3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1cddee6429c04489ab56136c77d825bf306" cid="ELEM045" name="btn_Casa4_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o040b0c2b11b646d7a268824dcc93aa7d667" cid="ELEM046" name="Caminho1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="obe60a723fe12417a9296ca6297c81e72301" cid="ELEM047" name="Caminho1e2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o2b0579cbf78544ff831275b63eb529e1201" cid="ELEM048" name="Caminho1e3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o2b671a043a084a13a20214c736bd173f399" cid="ELEM049" name="Caminho1e4_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o971e42d5ea9c4e5b88323626fef42551560" cid="ELEM050" name="Caminho2e1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o0f1bf1c9bdd3465eac686fa7aaaaf65c701" cid="ELEM059" name="Caminho2e3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o92b4e99bc9ca4413a4249010f753ef38973" cid="ELEM060" name="Caminho2e4_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4482c1cfe3e74499897e0f5d0c64fa4a9" cid="ELEM061" name="Caminho3e1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o14837fc9510f442dbf0f9555ac8109d6734" cid="ELEM062" name="Caminho3e2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1b26ac131dc54d39a0dc2cc3fa7d721145" cid="ELEM063" name="Caminho3e4_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="obc13be77da344a92a139ba7d19deb2ec36" cid="ELEM064" name="Caminho4e1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="obbf6e60fad714b499f356871dc5df4f1456" cid="ELEM065" name="Caminho4e2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ofbeeecd7829746bfad99be55b4fe9c37953" cid="ELEM066" name="Caminho4e3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o59bd3b770ee241feaec0e45bf2f5207a917" cid="ELEM067" name="btn_Recomecar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o58e692a5febe4795be018faf2fcf6d0d108" cid="ELEM068" name="btn_ProximaFase_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o8c79e54eb3e84eb38139ffde9ccd9b72851" cid="ELEM069" name="btn_SetaInicio_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="od533fb8ad0b34e67a78e297a493f69c3493" cid="ELEM070" name="PercorrerCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p073dd32bd2194815bbeb2dd738038b12" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o1b95ae7b773f40169306c93aad641936929" cid="ELEM071" name="mostrarCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5ea49f369bb441afad79c0dc5fa15440" name="int" type="" type-id="" />
+                  <parameter id="p0bcf94dba9ac49d385e3950f94efbc31" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o69a18acea1fd4495a414ee19501eb617299" cid="ELEM072" name="mostrarMenorCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb6f5855d708b4d7fb5dc1ae829a00753" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o6bfecb02301544bab08a88e21edba972395" cid="ELEM073" name="setPontos" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p906ca5d46e234564a0aa56245066044a" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di467419524437965740" cid="C005" type="class" name="TelaPontos" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:35:21">
+            <style class="default" />
+            <attributes>
+              <attribute id="a11a85251743a4f779dd9da2f0fe21a92850" cid="ELEM077" name="Pontos" creation-date="01/01/0001 00:00:00" type="(int)" type-id="(int)" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ob923447fcf104871919ebd8b5381503b22" cid="ELEM075" name="TelaPontos_Load" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ofa23058ccc5544df953325e2b5d340a683" cid="ELEM076" name="btn_Voltar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o0e7ef72f93ab4fd69b6651b66c9ebaad309" cid="ELEM078" name="setPontos" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pac002840801d4be7ac4ae581c97c7d31" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o06ea257614484faabacffc3a9c8a92ed360" cid="ELEM079" name="getPontos" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="f72fed64113a4de7888a849024a2b7d2" cid="REL003" type="relationship" name="Composição" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:41:42" from="di275576505822228348" to="di2970ea5a690443ef873fd45e0c5d6ebb3636">
+            <style class="default" />
+            <relation from="di275576505822228348" to="di2970ea5a690443ef873fd45e0c5d6ebb3636">
+              <start-role id="umlar-cfc35975-c2a7-4de8-8b78-50c4ea2dda8b" name="" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-81a0012f-0894-414a-a4a0-fbe70614eb49" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="84415ed19ae845d189db404dd1934bb5" cid="DEP010" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:40:15" from="di612696908165115808" to="di2970ea5a690443ef873fd45e0c5d6ebb3636">
+            <style class="default" />
+          </item>
+          <item id="3075e39529d94bb6b84f388cc33fc26c" cid="DEP009" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:39:54" from="di612696908165115808" to="di656900490513059081">
+            <style class="default" />
+          </item>
+          <item id="a8c51561857244ffa875f3fe5c6229ed" cid="DEP008" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:38:39" from="dic092125f5d4b4dd7bf16a0848288e1919713" to="di612696908165115808">
+            <style class="default" />
+          </item>
+          <item id="dif01e7721d168448c95b655ee6b5768b76491" cid="C001" type="class" name="Controle" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:34:06">
+            <style class="default" />
+            <operations>
+              <operation id="o94bf1bb37366451593f11200cb892b5081" cid="ELEM002" name="Controle" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4e23de1e16434659905a2a0eacc97c02786" cid="ELEM005" name="~Controle" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o9ad8a5cd2da241b48a9335fc141f9923228" cid="ELEM006" name="gerenciarExecução" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4fd50862c5d349e49013c5dcd22fb6ae" name="void" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di2970ea5a690443ef873fd45e0c5d6ebb3636" cid="C004" type="class" name="TelaJogo0" style-class="" visibility="package" change-tracking-state="added" creator="Pce82bad23275468f983c0140e5f2d14b" creation-date="09/27/2018 22:34:47">
+            <style class="default" />
+            <attributes>
+              <attribute id="a559d468b7e9b4fddac20e2b85d2c2a22827" cid="ELEM028" name="Pontos" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a74436263fcfa41d89aec7aa7f2502805842" cid="ELEM034" name="btn_Casa1" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac4d549cd44cd49fa8b43d1195ff8b473293" cid="ELEM036" name="btn_Casa2" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3cfaa2d22c274a6e89a561396a3a0e15793" cid="ELEM037" name="btn_Casa3" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a9d5e48086d2d417d81d6e373b94fc60d585" cid="ELEM039" name="btn_ProximaFase" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a41dc4cd0a7a74e8ebe2e471878a9d6ba382" cid="ELEM040" name="btn_Recomecar" creation-date="01/01/0001 00:00:00" type="Button" type-id="Button" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afc82dfe513b0461bb1187a07855701f6395" cid="ELEM074" name="VetorVisitas" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private" default-value=":int" multiplicity="4">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="of8f364a2d1f7446a884f792e198989dd354" cid="ELEM029" name="TelaJogo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="off2c93cd14544c8bb238c711571f2d26921" cid="ELEM031" name="~TelaJogo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o9269316df16446398644dbc1e1e948d3641" cid="ELEM032" name="SetPontos" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="peab4f220bdb04b26a0d1e488576c68b7" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o1a8c8d345d8c4ee9bac342420326dc52654" cid="ELEM033" name="TelaJogo_Load" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o0426217e5ed549e9848ef89f3e36db03234" cid="ELEM041" name="btn_Casa1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o022d42871b63443c825ace0223733c3a475" cid="ELEM043" name="btn_Casa2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ocf93bf753685465faf516125d896e8df759" cid="ELEM044" name="btn_Casa3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o040b0c2b11b646d7a268824dcc93aa7d667" cid="ELEM046" name="Caminho1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="obe60a723fe12417a9296ca6297c81e72301" cid="ELEM047" name="Caminho1e2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o2b0579cbf78544ff831275b63eb529e1201" cid="ELEM048" name="Caminho1e3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o971e42d5ea9c4e5b88323626fef42551560" cid="ELEM050" name="Caminho2e1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o0f1bf1c9bdd3465eac686fa7aaaaf65c701" cid="ELEM059" name="Caminho2e3_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4482c1cfe3e74499897e0f5d0c64fa4a9" cid="ELEM061" name="Caminho3e1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o14837fc9510f442dbf0f9555ac8109d6734" cid="ELEM062" name="Caminho3e2_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o59bd3b770ee241feaec0e45bf2f5207a917" cid="ELEM067" name="btn_Recomecar_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o58e692a5febe4795be018faf2fcf6d0d108" cid="ELEM068" name="btn_ProximaFase_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o8c79e54eb3e84eb38139ffde9ccd9b72851" cid="ELEM069" name="btn_SetaInicio_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="od533fb8ad0b34e67a78e297a493f69c3493" cid="ELEM070" name="PercorrerCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p073dd32bd2194815bbeb2dd738038b12" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o1b95ae7b773f40169306c93aad641936929" cid="ELEM071" name="mostrarCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5ea49f369bb441afad79c0dc5fa15440" name="int" type="" type-id="" />
+                  <parameter id="p0bcf94dba9ac49d385e3950f94efbc31" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o69a18acea1fd4495a414ee19501eb617299" cid="ELEM072" name="mostrarMenorCaminho" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb6f5855d708b4d7fb5dc1ae829a00753" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o6bfecb02301544bab08a88e21edba972395" cid="ELEM073" name="setPontos" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p906ca5d46e234564a0aa56245066044a" name="int" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="dic092125f5d4b4dd7bf16a0848288e1919713" cid="C001" type="class" name="InterfaceUsuario" style-class="" visibility="package" change-tracking-state="added" creation-date="09/27/2018 22:34:06">
+            <style class="default" />
+            <attributes>
+              <attribute id="a92695b1d3341446595b403c5549c0e39706" cid="ELEM051" name="i" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o94bf1bb37366451593f11200cb892b5081" cid="ELEM002" name="InterfaceUsuario" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4e23de1e16434659905a2a0eacc97c02786" cid="ELEM005" name="~InterfaceUsuario" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o9ad8a5cd2da241b48a9335fc141f9923228" cid="ELEM006" name="timer1_Tick" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4fd50862c5d349e49013c5dcd22fb6ae" name="void" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o3db7741c175c42a9b93e7ca452f901db142" cid="ELEM052" name="InterfaceUsuario_Load" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o65890bb07c3443d98e143560d7ebd3ba391" cid="ELEM053" name="progressBar1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o19dc51827f7846f695e36a927dd90dd5108" cid="ELEM055" name="pictureBox1_Click" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o09949432d4f24adfbefc6a341ea3324e970" cid="ELEM056" name="inicializeComponent" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="undefined">
+                <style class="default" />
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="18da1f57cd784903bdc89d5f1c7db541" cid="DEP012" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:44:38" from="di2970ea5a690443ef873fd45e0c5d6ebb3636" to="di467419524437965740">
+            <style class="default" />
+          </item>
+          <item id="1529fc9cf0004405a35727c38ce5b4cd" cid="DEP013" type="dependency" name="Depende" style-class="" visibility="package" change-tracking-state="added" creation-date="09/29/2018 19:44:53" from="di275576505822228348" to="di467419524437965740">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer id="80a0ed90c561413facd1df1cd9168713" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di656900490513059081" iid="62086597a8c14aa7987863895a9c7096" creation-date="09/27/2018 22:34:10" order-index="2" type="entity">
+            <layout ax="289" ay="690" awidth="172" aheight="185" x="289" y="690" width="172" height="185" />
+            <class />
+          </item>
+          <item id="di467419524437965740" iid="79cbaaea2483432d9937c1ec70355599" creation-date="09/27/2018 22:35:21" order-index="4" type="entity">
+            <layout ax="1193" ay="415" awidth="168" aheight="160" x="1193" y="415" width="168" height="160" />
+            <class />
+          </item>
+          <item id="dic092125f5d4b4dd7bf16a0848288e1919713" iid="63cc6755f59944949e28e6f9e6011ed0" creation-date="09/27/2018 22:34:06" order-index="0" type="entity">
+            <layout ax="612.5" ay="400" awidth="186.5" aheight="175" x="612.5" y="400" width="186.5" height="175" />
+            <class />
+          </item>
+          <item id="di275576505822228348" iid="953d69321b45466ebdb93400e8b951fd" creation-date="09/27/2018 22:34:47" order-index="3" type="entity">
+            <layout ax="1226" ay="670" awidth="194" aheight="661" x="1226" y="670" width="194" height="661" />
+            <class />
+          </item>
+          <item id="di2970ea5a690443ef873fd45e0c5d6ebb3636" iid="723df235592149b38262c1d9075efa17" creation-date="09/27/2018 22:34:47" order-index="3" type="entity">
+            <layout ax="899" ay="670" awidth="194" aheight="521" x="899" y="670" width="194" height="521" />
+            <class />
+          </item>
+          <item id="di612696908165115808" iid="2755c678108a435fabd9287526de2791" creation-date="09/27/2018 22:34:09" order-index="1" type="entity">
+            <layout ax="611" ay="644" awidth="188" aheight="253" x="611" y="644" width="188" height="253" />
+            <class />
+          </item>
+          <item id="dif01e7721d168448c95b655ee6b5768b76491" iid="b2189bd1643749359c3f81def58c452a" creation-date="09/27/2018 22:34:06" order-index="0" type="entity">
+            <layout ax="883.5" ay="409" awidth="225" aheight="133" x="883.5" y="409" width="225" height="133" />
+            <class />
+          </item>
+          <item id="31a2bfdcb3934273bb913c9f7fd30e77" iid="494af90c6d854fb2892c83ba508756b8" creation-date="09/29/2018 19:38:09" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="884" y1="475" x2="799" y2="475" start-border-pos="0.875939846038818" end-border-pos="0.357142858207226" name-position="-2,-15">
+              <points>
+                <point x="884" y="475" />
+                <point x="799" y="475" />
+              </points>
+            </layout>
+            <relation from="dif01e7721d168448c95b655ee6b5768b76491" from-iid="b2189bd1643749359c3f81def58c452a" to="dic092125f5d4b4dd7bf16a0848288e1919713" to-iid="63cc6755f59944949e28e6f9e6011ed0" />
+          </item>
+          <item id="a8c51561857244ffa875f3fe5c6229ed" iid="152c693e9664414ba510d07c9edc9481" creation-date="09/29/2018 19:38:39" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="706" y1="575" x2="705" y2="644" start-border-pos="0.625" end-border-pos="0.125" name-position="49,-2">
+              <points>
+                <point x="706" y="575" />
+                <point x="705" y="644" />
+              </points>
+            </layout>
+            <relation from="dic092125f5d4b4dd7bf16a0848288e1919713" from-iid="63cc6755f59944949e28e6f9e6011ed0" to="di612696908165115808" to-iid="2755c678108a435fabd9287526de2791" />
+          </item>
+          <item id="3075e39529d94bb6b84f388cc33fc26c" iid="5edc7e5d3d704cd58ed77c014300e2e9" creation-date="09/29/2018 19:39:54" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="611" y1="771" x2="461" y2="771" start-border-pos="0.874505928853755" end-border-pos="0.359459459459459" name-position="-2,-20">
+              <points>
+                <point x="611" y="771" />
+                <point x="461" y="771" />
+              </points>
+            </layout>
+            <relation from="di612696908165115808" from-iid="2755c678108a435fabd9287526de2791" to="di656900490513059081" to-iid="62086597a8c14aa7987863895a9c7096" />
+          </item>
+          <item id="84415ed19ae845d189db404dd1934bb5" iid="b99df84fb15140d2b5c3960de7542af8" creation-date="09/29/2018 19:40:15" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="799" y1="771" x2="899" y2="769" start-border-pos="0.375494071146245" end-border-pos="0.952723146747352" name-position="-4,-21">
+              <points>
+                <point x="799" y="771" />
+                <point x="899" y="769" />
+              </points>
+            </layout>
+            <relation from="di612696908165115808" from-iid="2755c678108a435fabd9287526de2791" to="di2970ea5a690443ef873fd45e0c5d6ebb3636" to-iid="723df235592149b38262c1d9075efa17" />
+          </item>
+          <item id="f72fed64113a4de7888a849024a2b7d2" iid="f6599faa355e44ac97074c4b78b52cf7" creation-date="09/29/2018 19:41:42" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="1226" y1="1001" x2="1093" y2="1004" start-border-pos="0.874810892586989" end-border-pos="0.410028790786948" name-position="-5,-23">
+              <points>
+                <point x="1226" y="1001" />
+                <point x="1093" y="1004" />
+              </points>
+            </layout>
+            <relation from="di275576505822228348" from-iid="953d69321b45466ebdb93400e8b951fd" to="di2970ea5a690443ef873fd45e0c5d6ebb3636" to-iid="723df235592149b38262c1d9075efa17" to-field="o971e42d5ea9c4e5b88323626fef42551560" />
+          </item>
+          <item id="18da1f57cd784903bdc89d5f1c7db541" iid="e1aeafe37a2d402f951dd2fdc2b358dc" creation-date="09/29/2018 19:44:38" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1093" y1="670" x2="1193" y2="575" start-border-pos="0.25" end-border-pos="0.75" name-position="-62,15">
+              <points>
+                <point x="1093" y="670" />
+                <point x="1193" y="575" />
+              </points>
+            </layout>
+            <relation from="di2970ea5a690443ef873fd45e0c5d6ebb3636" from-iid="723df235592149b38262c1d9075efa17" to="di467419524437965740" to-iid="79cbaaea2483432d9937c1ec70355599" />
+          </item>
+          <item id="1529fc9cf0004405a35727c38ce5b4cd" iid="93719777ba0745c6be29f87c155b4cb1" creation-date="09/29/2018 19:44:53" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1323" y1="670" x2="1328" y2="575" start-border-pos="0.125" end-border-pos="0.549107141792774" name-position="40,15">
+              <points>
+                <point x="1323" y="670" />
+                <point x="1328" y="575" />
+              </points>
+            </layout>
+            <relation from="di275576505822228348" from-iid="953d69321b45466ebdb93400e8b951fd" to="di467419524437965740" to-iid="79cbaaea2483432d9937c1ec70355599" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

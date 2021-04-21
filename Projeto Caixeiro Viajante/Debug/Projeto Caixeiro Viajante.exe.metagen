@@ -1,0 +1,204 @@
+  ProjetoCaixeiroViajante.Sobre.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaBemVindo.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.InterfaceUsuario.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo0.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo2.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo3.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo4.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo5.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaJogo6.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaMenu.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaNome.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaPontos.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaPontuacao.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaPontuacao1.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaPontuacao2.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria10.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria11.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria12.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria3.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria4.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria5.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria6.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria7.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria8.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TelaTeoria9.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeleTeoria2.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaEscolha.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV1.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV2.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV3.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV4.resources - Embedded, ContainedInManifestFile, 
+  ProjetoCaixeiroViajante.TeoriaPCV5.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Projeto Caixeiro Viajante, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ProjetoCaixeiroViajante.TelaJogo3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo0: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaBemVindo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.InterfaceUsuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria12: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria11: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria10: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria9: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria8: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria7: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria6: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeleTeoria2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaTeoria: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaPCV: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TeoriaEscolha: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.Sobre: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjetoCaixeiroViajante.TelaMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    pictureBox1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo5: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaPontos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaNome: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaPontuacao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaPontuacao1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaPontuacao2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig
+Class ProjetoCaixeiroViajante.TelaJogo6: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setPontos(Int32): PrivateScope, Public, HideBySig
+    getPontos(): PrivateScope, Public, HideBySig

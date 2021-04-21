@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaBemVindo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sobre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleTeoria2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceUsuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaPontos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaJogo6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaEscolha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaNome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Principal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaBemVindo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sobre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleTeoria2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaTeoria12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceUsuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaPontos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaJogo6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaEscolha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeoriaPCV5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaPontuacao1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaPontuacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaPontuacao2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaNome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelaBemVindo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMapa.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeleTeoria2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria10.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria11.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria12.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria3.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria4.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria5.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria6.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria7.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria8.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria9.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo0.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceUsuario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontos.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo3.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo4.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo5.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo6.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaEscolha.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV3.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV4.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV5.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNome.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$this.BackgroundImage.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Projeto Caixeiro Viajante.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

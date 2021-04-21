@@ -1,0 +1,51 @@
+﻿Build started 17/11/2018 18:10:23.
+     1>Project "C:\Users\julio\Desktop\Projeto Faitec 2018\Projeto Caixeiro Viajante\Projeto Caixeiro Viajante.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\julio\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\julio\Desktop\Projeto Faitec 2018\Projeto Caixeiro Viajante\Debug\Projeto Caixeiro Viajante.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.Sobre.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaBemVindo.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.InterfaceUsuario.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo0.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo2.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo3.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo4.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo5.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaJogo6.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaMenu.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaNome.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaPontos.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaPontuacao.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaPontuacao1.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaPontuacao2.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria10.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria11.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria12.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria3.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria4.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria5.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria6.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria7.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria8.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TelaTeoria9.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeleTeoria2.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaEscolha.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV1.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV2.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV3.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV4.resources /ASSEMBLYRESOURCE:Debug\ProjetoCaixeiroViajante.TeoriaPCV5.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\julio\Desktop\Projeto Faitec 2018\Projeto Caixeiro Viajante\Debug\Projeto Caixeiro Viajante.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 "Debug\Projeto Caixeiro Viajante.res"
+         Debug\Controle.obj
+         Debug\Principal.obj
+         Debug\Sobre.obj
+         Debug\TelaBemVindo.obj
+         Debug\InterfaceUsuario.obj
+         Debug\TelaJogo.obj
+         Debug\TelaJogo0.obj
+         Debug\TelaJogo2.obj
+         Debug\TelaJogo3.obj
+         Debug\TelaJogo4.obj
+         Debug\TelaJogo5.obj
+         Debug\TelaJogo6.obj
+         Debug\TelaMenu.obj
+         Debug\TelaNome.obj
+         Debug\TelaPontos.obj
+         Debug\TelaPontuacao.obj
+         Debug\TelaPontuacao1.obj
+         Debug\TelaPontuacao2.obj
+         Debug\TelaTeoria.obj
+         Debug\TelaTeoria10.obj
+         Debug\TelaTeoria11.obj
+         Debug\TelaTeoria12.obj
+         Debug\TelaTeoria3.obj
+         Debug\TelaTeoria4.obj
+         Debug\TelaTeoria5.obj
+         Debug\TelaTeoria6.obj
+         Debug\TelaTeoria7.obj
+         Debug\TelaTeoria8.obj
+         Debug\TelaTeoria9.obj
+         Debug\TeleTeoria2.obj
+         Debug\TeoriaEscolha.obj
+         Debug\TeoriaPCV.obj
+         Debug\TeoriaPCV1.obj
+         Debug\TeoriaPCV2.obj
+         Debug\TeoriaPCV3.obj
+         Debug\TeoriaPCV4.obj
+         Debug\TeoriaPCV5.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Projeto Caixeiro Viajante.vcxproj -> C:\Users\julio\Desktop\Projeto Faitec 2018\Projeto Caixeiro Viajante\Debug\Projeto Caixeiro Viajante.exe
+     1>Done Building Project "C:\Users\julio\Desktop\Projeto Faitec 2018\Projeto Caixeiro Viajante\Projeto Caixeiro Viajante.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.27

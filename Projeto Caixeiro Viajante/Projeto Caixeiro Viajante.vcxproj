@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E909DC7F-ABB0-4D81-8CB1-A373631EC0D2}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ProjetoCaixeiroViajante</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Controle.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sobre.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaBemVindo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InterfaceUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo0.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaJogo6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaNome.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPontos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPontuacao2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria11.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria12.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria8.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaTeoria9.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeleTeoria2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaEscolha.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeoriaPCV5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Projeto Caixeiro Viajante.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controle.cpp" />
+    <ClCompile Include="Principal.cpp" />
+    <ClCompile Include="Sobre.cpp" />
+    <ClCompile Include="TelaBemVindo.cpp" />
+    <ClCompile Include="InterfaceUsuario.cpp" />
+    <ClCompile Include="TelaJogo.cpp" />
+    <ClCompile Include="TelaJogo0.cpp" />
+    <ClCompile Include="TelaJogo2.cpp" />
+    <ClCompile Include="TelaJogo3.cpp" />
+    <ClCompile Include="TelaJogo4.cpp" />
+    <ClCompile Include="TelaJogo5.cpp" />
+    <ClCompile Include="TelaJogo6.cpp" />
+    <ClCompile Include="TelaMenu.cpp" />
+    <ClCompile Include="TelaNome.cpp" />
+    <ClCompile Include="TelaPontos.cpp" />
+    <ClCompile Include="TelaPontuacao.cpp" />
+    <ClCompile Include="TelaPontuacao1.cpp" />
+    <ClCompile Include="TelaPontuacao2.cpp" />
+    <ClCompile Include="TelaTeoria.cpp" />
+    <ClCompile Include="TelaTeoria10.cpp" />
+    <ClCompile Include="TelaTeoria11.cpp" />
+    <ClCompile Include="TelaTeoria12.cpp" />
+    <ClCompile Include="TelaTeoria3.cpp" />
+    <ClCompile Include="TelaTeoria4.cpp" />
+    <ClCompile Include="TelaTeoria5.cpp" />
+    <ClCompile Include="TelaTeoria6.cpp" />
+    <ClCompile Include="TelaTeoria7.cpp" />
+    <ClCompile Include="TelaTeoria8.cpp" />
+    <ClCompile Include="TelaTeoria9.cpp" />
+    <ClCompile Include="TeleTeoria2.cpp" />
+    <ClCompile Include="TeoriaEscolha.cpp" />
+    <ClCompile Include="TeoriaPCV.cpp" />
+    <ClCompile Include="TeoriaPCV1.cpp" />
+    <ClCompile Include="TeoriaPCV2.cpp" />
+    <ClCompile Include="TeoriaPCV3.cpp" />
+    <ClCompile Include="TeoriaPCV4.cpp" />
+    <ClCompile Include="TeoriaPCV5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaBemVindo.resx">
+      <DependentUpon>TelaBemVindo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceUsuario.resx">
+      <DependentUpon>InterfaceUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo.resx">
+      <DependentUpon>TelaJogo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo0.resx">
+      <DependentUpon>TelaJogo0.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo2.resx">
+      <DependentUpon>TelaJogo2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo3.resx">
+      <DependentUpon>TelaJogo3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo4.resx">
+      <DependentUpon>TelaJogo4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo5.resx">
+      <DependentUpon>TelaJogo5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo6.resx">
+      <DependentUpon>TelaJogo6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMenu.resx">
+      <DependentUpon>TelaMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNome.resx">
+      <DependentUpon>TelaNome.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontos.resx">
+      <DependentUpon>TelaPontos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao.resx">
+      <DependentUpon>TelaPontuacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao1.resx">
+      <DependentUpon>TelaPontuacao1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPontuacao2.resx">
+      <DependentUpon>TelaPontuacao2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria.resx">
+      <DependentUpon>TelaTeoria.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria10.resx">
+      <DependentUpon>TelaTeoria10.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria11.resx">
+      <DependentUpon>TelaTeoria11.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria12.resx">
+      <DependentUpon>TelaTeoria12.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria3.resx">
+      <DependentUpon>TelaTeoria3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria4.resx">
+      <DependentUpon>TelaTeoria4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria5.resx">
+      <DependentUpon>TelaTeoria5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria6.resx">
+      <DependentUpon>TelaTeoria6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria7.resx">
+      <DependentUpon>TelaTeoria7.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria8.resx">
+      <DependentUpon>TelaTeoria8.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTeoria9.resx">
+      <DependentUpon>TelaTeoria9.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeleTeoria2.resx">
+      <DependentUpon>TeleTeoria2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaEscolha.resx">
+      <DependentUpon>TeoriaEscolha.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV.resx">
+      <DependentUpon>TeoriaPCV.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV1.resx">
+      <DependentUpon>TeoriaPCV1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV2.resx">
+      <DependentUpon>TeoriaPCV2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV3.resx">
+      <DependentUpon>TeoriaPCV3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV4.resx">
+      <DependentUpon>TeoriaPCV4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeoriaPCV5.resx">
+      <DependentUpon>TeoriaPCV5.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$this.BackgroundImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
